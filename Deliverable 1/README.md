@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Deliverable 1 - Use Cases, Quality Attribute Scenarios, CMS
 
 ## Figure 1: Uses Cases
@@ -24,3 +25,6 @@
 | UC-18		| Appoint Lecturers/Assistant               | The system should allow the appropriate users to appoint lecturers/assistant lecturers for a course
 | UC-19		| Retrieve Educational/Personal Information | The system should allow the retrieval of education or personal information of any user.
 | UC-20		| Restrict change of Information            | The system should allow the appropriate users to restrict the information that can be changed by any other uses.
+=======
+# project-group-27
+>>>>>>> a1e31feac63d8ac4b68138634ef2bb5141bd68a8
