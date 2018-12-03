@@ -23,4 +23,4 @@
 | UC-17		| Limit System/File sizes                   | The system should allow the maintainer to limit file sizes being uplaoded by the lecturers or students
 | UC-18		| Appoint Lecturers/Assistant               | The system should allow the appropriate users to appoint lecturers/assistant lecturers for a course
 | UC-19		| Retrieve Educational/Personal Information | The system should allow the retrieval of education or personal information of any user.
-| UC-20		| Restrict change of Information            | The system should allow the appropriate users to restrict the information that can be changed by any other users.
+| UC-20		| Restrict change of Information            | The system should allow the appropriate users to restrict the information that can be changed by any other uses.
