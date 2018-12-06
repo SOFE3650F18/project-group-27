@@ -9,6 +9,11 @@ UC-1: Manage Courses <br>
 UC-4: Manage Static Course Information <br>
 UC-6: Manage Dynamic Course Information  <br>
 UC-13: Send Messages<br>
+UC-21: Login <br>
+
+**3.0.2 Elements of the System to Refine**<br>
+The elements that will be refined in this iteration are the Web based application architecture,  the User Interface and the MySQL relational database. In order to fully support the functionality, there will be collaboration of all the layers within these architectures 
+
 
 **3.0.3 Design Concepts that Satisfy the Selected Drivers** <br>
 The following table summarizes the design decisions:
