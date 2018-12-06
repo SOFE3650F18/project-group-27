@@ -103,6 +103,7 @@ The deployment diagram in figure 2.3 shows how the individual components associa
 Also information about relationships between some elements in the diagram that is worth recording is summarized in the following table:
 
 |Relationship|Description|
+|:-----------|:----------|
 |Between web/app server and database server|Communication with the database will be done using MySQL protocol|
 |Between web/app server and time server|The SNMP protocol is used (at least initially)|
 
