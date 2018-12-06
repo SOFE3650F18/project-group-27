@@ -21,9 +21,7 @@ The instantiation design decisions are summarized in the following table:
 
 | Design Decisions and Location | Rationale |
 | :---------------------------- | :-------- |
-| Use active redundancy and load balancing in the application server | Because two replicas of the application server are active at any time, it makes sense to distribute and balance the load among the replicas. This tactic can be achieved through the use of the Load-Balanced Cluster pattern.
-
-This introduces a new architectural concern CRN-2:Manage state in replicas.|
+| Use active redundancy and load balancing in the application server | Because two replicas of the application server are active at any time, it makes sense to distribute and balance the load among the replicas. This tactic can be achieved through the use of the Load-Balanced Cluster pattern. This introduces a new architectural concern CRN-2:Manage state in replicas.|
 | Implement load balancing and redundancy using technology support | Many technological options for load balancing and redundancy can be implemented without having to develop an ad hoc solution that would be less mature and harder to support. |
 
 **4.0.5 Sketch Views and Record Design Decisions**<br>
