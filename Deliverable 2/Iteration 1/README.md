@@ -121,10 +121,10 @@ Also information about relationships between some elements in the diagram that i
 |UC-13          |                     |                      |No structure has been implemented that allows for this feature yet.|
 |               |UC-16                |                      |SQL database allows for system backups as needed.|
 |               |UC-20                |                      |Authorized users will have access to the SQL table containing users and their access. This means authorized users can make changes to other users access.|
-|               |                     |UC-21                 |By using an sql database it allows for a table to store user ids and the restrictions they have. This allows us to meet this use case.|
-|               |                     |QA-1                  |Because we are using a web based application with four tiers and sql database large files will be no issue.If it need to be restricted due to load then it is easy to do so.|
-|               |                     |QA-2                  |Because we are using a web based application with four tiers and sql database multiple users can interact with the system at once and change files.|
-|               |                     |QA-3                  |Because we are using a web based application and sql database the only downtime would be for system maintenance and significant changes.|
-|               |                     |CON-2                 |Web based user interface checks off all items in this constraint|
+|               |UC-21                     |                 |By using an sql database it allows for a table to store user ids and the restrictions they have. This allows us to meet this use case.|
+|               |QA-1                     |                  |Because we are using a web based application with four tiers and sql database large files will be no issue.If it need to be restricted due to load then it is easy to do so.|
+|               |QA-2                     |                  |Because we are using a web based application with four tiers and sql database multiple users can interact with the system at once and change files.|
+|               |QA-3                     |                  |Because we are using a web based application and sql database the only downtime would be for system maintenance and significant changes.|
+|               |CON-2                     |                 |Web based user interface checks off all items in this constraint|
 |               |CON-3                |                      |By using a web based application we have taken the first step in this process. We now have to add the correct packages to allow complete addressing of this constraint|
 |               |                     |CON-5                 |Web based application is universal the only thing is access to the secondary universities database. so easily can sync with other universities who support SQL databases|
