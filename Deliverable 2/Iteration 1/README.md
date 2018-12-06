@@ -53,6 +53,13 @@ Design concepts are selected according to Appendix A in FCAPS. In order to estab
 | Code the User Interface using HTML, PHP, and Javascript | HTML and PHP is easy to code and Javascript allows easy access to server. HTML and Javascript is also very easy to code and make changes. |
 | Creating relational database using MySQL | MySQL is easy to work with HTML and PHP to make connections directly to the database. |
 
+**2.2.4 Instantiate Architectural Elements, Allocate Responsibilities, and Define Interfaces** <br>
+The instantiation design decisions made in this iteration are summarized in the following table:
+
+|Design Decisions and Location | Rationale |
+|Modify the Business layer of the web application to handle the university logic.| Even though the logic may be similar the school usually needs more fine tuning due to strict course requirements.|
+|Modify the Business logic tier of the four tier deployment to handle the university logic.| Even though the logic may be similar the school usually needs more fine tuning due to strict course requirements.|
+
 **2.2.5 Sketch Views and Record Design Decisions** <br>
 
 The diagram in figure 2.2 shows the sketch of the module view of the two reference architectures that were selected for the client and server applications. These have now been adapted according to the design decisions we have made. <br>
@@ -90,6 +97,13 @@ The deployment diagram in figure 2.3 shows how the individual components associa
 | Database Server | The server that contains and hosts the relational database of the system |
 | Time Server | All External Time Servers |
 
+Also information about relationships between some elements in the diagram that is worth recording is summarized in the following table:
+
+|Relationship|Description|
+|Between web/app server and database server|Communication with the database will be done using MySQL protocol|
+|Between web/app server and time server|The SNMP protocol is used (at least initially)|
+
+
 ![Deployment Diagram](DeploymentDiagram.jpg)<br>
 **FIGURE 2.3** Deployment Diagram for the CMS system <br>
 
@@ -101,8 +115,8 @@ The deployment diagram in figure 2.3 shows how the individual components associa
 |               |UC-4                 |                      |User restriction is now possible with SQL database. Other user interface features not yet implemented.|
 |               |UC-6                 |                      |User restriction is now possible with SQL database. Other user interface features not yet implemented.|
 |UC-13          |                     |                      |No structure has been implemented that allows for this feature yet.|
-|               |                     |UC-16                 |SQL database allows for system backups as needed.|
-|               |                     |UC-20                 |Authorized users will have access to the SQL table containing users and their access. This means authorized users can make changes to other users access.|
+|               |UC-16                |                      |SQL database allows for system backups as needed.|
+|               |UC-20                |                      |Authorized users will have access to the SQL table containing users and their access. This means authorized users can make changes to other users access.|
 |               |                     |UC-21                 |By using an sql database it allows for a table to store user ids and the restrictions they have. This allows us to meet this use case.|
 |               |                     |QA-1                  |Because we are using a web based application with four tiers and sql database large files will be no issue.If it need to be restricted due to load then it is easy to do so.|
 |               |                     |QA-2                  |Because we are using a web based application with four tiers and sql database multiple users can interact with the system at once and change files.|
