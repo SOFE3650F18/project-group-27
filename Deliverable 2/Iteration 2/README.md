@@ -20,15 +20,9 @@ The following table summarizes the design decisions:
 
 | Design Decisions and Location | Rationale and Assumptions |
 | :---------------------------- | :------------------------ |
-| Create a Domain Model for the application | Before starting a functional decomposition we must create an initial domain model for the system. We must identify major entities in the domain and their relationships.
-
-No other alternatives were considered as this is the foundation. |
-| Identify Domain Objects that map to functional requirements. | Each distinct functional element of the application needs to be encapsulated in a self-contained building block -- a domain object.
-
-You could skip the consideration of domain objects but you risk requirement considerations. |
-| Decompose Domain Objects into general and specialized components. | Domain objects represent complete sets of functionality. “Components” are referred to as modules.
-
-There are no good alternatives. |
+| Create a Domain Model for the application | Before starting a functional decomposition we must create an initial domain model for the system. We must identify major entities in the domain and their relationships.No other alternatives were considered as this is the foundation. |
+| Identify Domain Objects that map to functional requirements. | Each distinct functional element of the application needs to be encapsulated in a self-contained building block -- a domain object. You could skip the consideration of domain objects but you risk requirement considerations. |
+| Decompose Domain Objects into general and specialized components. | Domain objects represent complete sets of functionality. “Components” are referred to as modules. There are no good alternatives. |
 | Use Spring Framework and Hibernate | Spring is a widely used framework to support enterprise application and Hibernate integrates well with Spring. Other alternatives were considered in JEE and other ORM frameworks but due to FCAPS and the fact that there was no real push to select a specific one so Spring and Hibernate were chosen.|
 
 **3.0.4 Instantiate Architectural Elements, Allocate Responsibilities, and define Interfaces** <br>
