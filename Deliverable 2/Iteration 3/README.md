@@ -38,7 +38,7 @@ The following table describes responsibilities for elements that have not been p
 The UML sequence diagram shown in Figure 4.2 illustrates how the LoadBalancer that was introduced in this iteration dispatches requests to support QA-3.
 As the purpose of this diagram is just as an illustration, the names of the methods are just temporary.
 
-![Sequence Diagram](Sequence2.jpg) <br>
+![Sequence Diagram](Sequence2.JPG) <br>
 **FIGURE 4.2** Sequence Diagram with LoadBalancer
 
 **4.0.6 Perform Analysis of Current Design and Review Iteration** <br>
