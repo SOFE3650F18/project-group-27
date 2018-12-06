@@ -43,7 +43,7 @@ As a result of the decisions made in step 5, several diagrams were created:
 ![Domain Diagram](Domain.jpg) <br>
 **FIGURE 3.1** Initial Domain model
 
-![Objects Diagram](DomainObjects.jpg) <br>
+![Objects Diagram](DomainObject.jpg) <br>
 **FIGURE 3.2** Domain Objects associated with the use cases
 
 ![Module Diagram](Modules.jpg) <br>
