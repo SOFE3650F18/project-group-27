@@ -1,5 +1,5 @@
 # SOFE 3650 Final Project - Group 27
 
 ## Members
-* Shreyans Rishi
-* Randell Roopsingh
+* Shreyans Rishi - 100585817
+* Randell Roopsingh - 100470075
