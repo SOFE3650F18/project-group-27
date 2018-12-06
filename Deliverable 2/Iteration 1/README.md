@@ -57,6 +57,7 @@ Design concepts are selected according to Appendix A in FCAPS. In order to estab
 The instantiation design decisions made in this iteration are summarized in the following table:
 
 |Design Decisions and Location | Rationale |
+|:---------------------------- | :-------- |
 |Modify the Business layer of the web application to handle the university logic.| Even though the logic may be similar the school usually needs more fine tuning due to strict course requirements.|
 |Modify the Business logic tier of the four tier deployment to handle the university logic.| Even though the logic may be similar the school usually needs more fine tuning due to strict course requirements.|
 
