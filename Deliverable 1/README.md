@@ -1,6 +1,7 @@
 # Deliverable 1 - Use Cases, Quality Attribute Scenarios, CMS
 
 ## Figure 1: Uses Cases
+Each of the use cases are described in the following table:
 
 | ID      | Uses Case                                 | Description  |
 | --------|:-----------------------------------------:| ------------:|
@@ -26,6 +27,7 @@
 | UC-20		| Restrict change of Information            | The system should allow the appropriate users to restrict the information that can be changed by any other uses.|
 | UC-21		| Login                                     | The system should allow all users to securely login in to the system and be able to use all the features they are allowed.|
 ## Figure 2: Quality Attribute Scenarios
+In addition to these use cases, a number of quality attribute scenarios were elicited and documented in the table below. The associated use case for each scenario is also included.
 
 | ID    | Quality Attribute      | Scenario                                  | Associated Use Cases  |
 | ----- | :---------------------:|:-----------------------------------------:| ---------------------:|
@@ -37,6 +39,7 @@
 
 
 ## Figure 3: Constraints
+Finally, a set of constraints on the system and its implementation were collected. They are shown in the below table.
 
 | ID    | Constraint             |
 | ----- | :---------------------:|
@@ -45,3 +48,7 @@
 | CON-3  | All content must be accessible by disabled users    |
 | CON-4  | Allow to import calendar and other data		     |
 | CON-5  | Must work and synchronize with secondary universities	       |
+
+## Architectural Concerns
+As being a greenfield development and as we are new developers and new to the ADD process the team started off with no architectural concerns.
+
