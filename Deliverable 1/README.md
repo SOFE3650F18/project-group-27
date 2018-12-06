@@ -24,7 +24,7 @@
 | UC-18		| Appoint Lecturers/Assistant               | The system should allow the appropriate users to appoint lecturers/assistant lecturers for a course.|
 | UC-19		| Retrieve Educational/Personal Information | The system should allow the retrieval of education or personal information of any user.|
 | UC-20		| Restrict change of Information            | The system should allow the appropriate users to restrict the information that can be changed by any other uses.|
-
+| UC-21		| Login                                     | The system should allow all users to securely login in to the system and be able to use all the features they are allowed.|
 ## Figure 2: Quality Attribute Scenarios
 
 | ID    | Quality Attribute      | Scenario                                  | Associated Use Cases  |
@@ -32,7 +32,7 @@
 | QA-1  | Performance	     | Sometimes huge file loads are sent to the system at peak load. The system processes the file size and limits the uploading size and time. | UC-17 |
 | QA-2  | Modifiability    | A lecturer can upload courses and content for it in realtime or scheduled.                                                   | UC-1 |
 | QA-3  | Availability     | The system should always be up for all users, restricting access depending on user type. If the system goes down it should come back up in a few hours. $hours/month downtime allowed.                            | UC-16 |
-| QA-4  | Usability		     | A user logs in to the system and can pick from a list of options to view, edit, update or upload information.                             | UC-9 - UC-15, UC-18 |
+| QA-4  | Usability		     | A user logs in to the system and can pick from a list of options to view, edit, update or upload information.                             | UC-9 - UC-15, UC-18, UC-21 |
 | QA-5  | Security	       | The system keeps tracks of changes done by every user and only allows user to change the information they have access to.                 | UC-20 |
 
 
