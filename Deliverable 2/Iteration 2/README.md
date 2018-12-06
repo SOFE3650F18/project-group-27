@@ -48,7 +48,6 @@ As a result of the decisions made in step 5, several diagrams were created:
 
 ![Module Diagram](Modules.jpg) <br>
 **FIGURE 3.3** Modules that support primary use cases
-
 | Element | Responsibility |
 | :------ | :------------- |
 | Browser Login View | Displays the login view that asks user for username and password inputs. |
