@@ -29,4 +29,4 @@ CON-2: Must be user friendly. Support Dutch and English. Max 3 clicks to reach a
 CON-3: All content must be accessible by disabled users <br>
 CON-5: Must work and synchronize with secondary universities <br>
 
-![Context](ViewsDiagram.jpg)
+![Context](ContextDiagram.jpg)
