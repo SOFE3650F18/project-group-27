@@ -29,7 +29,7 @@ CON-2: Must be user friendly. Support Dutch and English. Max 3 clicks to reach a
 CON-3: All content must be accessible by disabled users <br>
 CON-5: Must work and synchronize with secondary universities <br>
 
-![Context Diagram](ContextDiagram.jpg)
+![Context Diagram](ContextDiagram.jpg) <br>
 **FIGURE 2.1** Context Diagram for the CMS System
 
 **2.2.2 Elements of the System to Refine** <br>
@@ -50,7 +50,7 @@ In order to establish an overall structure the following design decisions were m
 
 The diagram in figure 2.2 shows the sketch of the module view of the two reference architectures that were selected for the client and server applications. These have now been adapted according to the design decisions we have made. <br>
 
-![Views Diagram](ViewsDiagram.jpg)
+![Views Diagram](ViewsDiagram.jpg) <br>
 **FIGURE 2.2** Sketch of a module view of client side and server side architecture <br>
 
 | Element | Responsibility |
@@ -83,7 +83,7 @@ The deployment diagram in figure 2.3 shows how the individual components associa
 | Database Server | The server that contains and hosts the relational database of the system |
 | Time Server | All External Time Servers |
 
-![Deployment Diagram](DeploymentDiagram.jpg)
+![Deployment Diagram](DeploymentDiagram.jpg)<br>
 **FIGURE 2.3** Deployment Diagram for the CMS system <br>
 
 **2.2.6 Perform Analysis of Current Design and Review Iteration Goal and Achievement of Design Purpose** <br>
