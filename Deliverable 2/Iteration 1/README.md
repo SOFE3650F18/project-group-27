@@ -6,7 +6,8 @@ The first step of the ADD method involves reviewing the inputs and identifying w
 | Design Purpose      | The purpose is to produce an efficient and sufficiently detailed design to support the construction of the Course Management System. |
 | Primary Functional Requirements     | The primary use cases were determined to be: <br> UC-1: Because it directly supports the primary requirements of the system <br> UC-4: Because it directly supports the primary requirements of the system <br> UC-6: Because it directly supports the primary requirements of the system <br> UC-13: Because it directly supports the primary requirements of the system <br> UC-16: Because of the technical issues associated <br> UC-20: Because of the technical issues associated <br> UC-21 Because of technical issues associated   |
 
-### Quality Attribute Scenarios: The scenarios were described in Section 1.2. They have now been prioritized as follows:
+### Quality Attribute Scenarios: <br>
+The scenarios were described in Section 1.2. They have now been prioritized as follows:
 
 | Scenario ID        | Importance to the Customer           | Difficulty of Implementation According to the Architect  |
 | ------------- |:-------------:| :-----:|
@@ -16,9 +17,11 @@ The first step of the ADD method involves reviewing the inputs and identifying w
 | QA-4 | Medium    | Medium |
 | QA-5 | High | High|
 
-### Constraints: All of the constraints discussed in Section 1.3 are included as drivers.
+### Constraints:<br>
+All of the constraints discussed in Section 1.3 are included as drivers.
 
-### Architectural concerns: All of the architectural concerns discussed in Section 1.4 are included as drivers.
+### Architectural concerns:<br>
+All of the architectural concerns discussed in Section 1.4 are included as drivers.
 
 # 2.2 Iteration 1 <br>
 This section presents the results of the activities that are performed in each of the steps of ADD in the first iteration of the design process.
