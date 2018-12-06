@@ -1,5 +1,5 @@
 # 2.1 ADD Step 1: Review Inputs <br>
-In addition to these use cases, a number of quality attribute scenarios were elicited and documented in the table below. The associated use case for each scenario is also included.
+The first step of the ADD method involves reviewing the inputs and identifying which requirements will be considered as drivers. The inputs are listed in the below table with details.
 
 | Category        | Details           |
 | ------------- |:-------------|
@@ -18,7 +18,10 @@ In addition to these use cases, a number of quality attribute scenarios were eli
 
 ### Constraints: All of the constraints discussed in Section 1.3 are included as drivers.
 
-# 2.2 Iteration 1
+### Architectural concerns: All of the architectural concerns discussed in Section 1.4 are included as drivers.
+
+# 2.2 Iteration 1 <br>
+This section presents the results of the activities that are performed in each of the steps of ADD in the first iteration of the design process.
 
 **2.2.1 Selecting Drivers** <br>
 This is the first iteration of the ADD process on the CMS system. The iteration goal is to establish an overall system structure. The following influence that structure:
@@ -37,7 +40,7 @@ CON-5: Must work and synchronize with secondary universities <br>
 This is a greenfield development effort (Cervantes, 2016). So the element to refine is the CMS system as a whole. See Figure 2.1 for details on this system. Using the textbook, refinement is done through decomposition.
 
 **2.2.3 Design Concepts that Satisfy the Selected Drivers** <br>
-In order to establish an overall structure the following design decisions were made:
+Design concepts are selected according to Appendix A in FCAPS. In order to establish an overall structure the following design decisions were made: 
 
 
 | Design Decisions and Location | Rationale |
