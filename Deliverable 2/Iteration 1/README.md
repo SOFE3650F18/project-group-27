@@ -1,4 +1,5 @@
-# 2.1 ADD Step 1: Review Inputs
+# 2.1 ADD Step 1: Review Inputs <br>
+In addition to these use cases, a number of quality attribute scenarios were elicited and documented in the table below. The associated use case for each scenario is also included.
 
 | Category        | Details           |
 | ------------- |:-------------|
