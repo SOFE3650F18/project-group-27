@@ -68,6 +68,8 @@ The diagram in figure 2.2 shows the sketch of the module view of the two referen
 ![Views Diagram](ViewsDiagram.jpg) <br>
 **FIGURE 2.2** Sketch of a module view of client side and server side architecture <br>
 
+The following table summarizes the information that is captured in Figure 2.2:
+
 | Element | Responsibility |
 | :------ | :------------- |
 | Presentation CS | This layer contains all the modules that are related to the user interactions with the system. |
