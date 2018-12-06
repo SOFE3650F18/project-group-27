@@ -3,7 +3,7 @@
 | Category        | Details           |
 | ------------- |:-------------|
 | Design Purpose      | The purpose is to produce an efficient and sufficiently detailed design to support the construction of the Course Management System. |
-| Primary Functional Requirements     | The primary use cases were determined to be: <br> UC-1: Because it directly supports the primary requirements of the system <br> UC-4: Because it directly supports the primary requirements of the system <br> UC-6: Because it directly supports the primary requirements of the system <br> UC-13: Because it directly supports the primary requirements of the system <br> UC-16: Because of the technical issues associated <br> UC-20: Because of the technical issues associated    |
+| Primary Functional Requirements     | The primary use cases were determined to be: <br> UC-1: Because it directly supports the primary requirements of the system <br> UC-4: Because it directly supports the primary requirements of the system <br> UC-6: Because it directly supports the primary requirements of the system <br> UC-13: Because it directly supports the primary requirements of the system <br> UC-16: Because of the technical issues associated <br> UC-20: Because of the technical issues associated <br> UC-21 Because of technical issues associated   |
 
 ### Quality Attribute Scenarios: The scenarios were described in Section 1.2. They have now been prioritized as follows:
 
@@ -51,3 +51,55 @@ In order to establish an overall structure the following design decisions were m
 The diagram in figure 2.2 shows the sketch of the module view of the two reference architectures that were selected for the client and server applications. These have now been adapted according to the design decisions we have made. <br>
 
 ![Views Diagram](ViewsDiagram.jpg)
+**FIGURE 2.2** Sketch of a module view of client side and server side architecture <br>
+
+| Element | Responsibility |
+| :------ | :------------- |
+| Presentation CS | This layer contains all the modules that are related to the user interactions with the system. |
+| Business Logic CS | This layer contains all the modules that are related to the business logic operations of the system and can be executed locally on the client side. |
+| Data CS | This layer contains all the modules that are responsible to initiate communication with the server. |
+| Cross-Cutting CS | This layer ensures the security and manages all the different operations happening in the other layers. |
+| Browser CS | This layer allows the user to be able to access the user interface created to easily access the system from anywhere. |
+| Login Module CS | This is the user interface that receives user login information as inputs. |
+| User Profile CS | This layer has modules that perform business operations on the user side based on the input received by the database/server. |
+| Other Relevant Pages CS | This layer has other relevant modules that the user need to perform various other tasks and requires some kind of interaction directly from the database/server. |
+| Server Communication Modules | This layer has modules that are used to connect the client side to the server side for data transfer. |
+| Services SS | This layer has all the modules that are being consumed by the user on the client side. |
+| Business Logic SS | This layer processes all the modules in the Business Logic CS layer, on the server side. |
+|  Data SS | This layer processes all the data that is required by the client side after the communication has been initiated by the time servers.  |
+| Cross-Cutting SS | This layer ensures the security and manages all the different operations happening in the other layers of the server side. |
+| Interface SS | This layer contains all the modules that are required to expose services that are consumed by the users on the client side. |
+| User Data SS | This layer contains all the modules that are required to get and return the user information to the client side. |
+| Relevant Page Entities | This layer contains all the modules that are required to get and return all other entities for every other services being used by the user on the client side.|
+| Database Access Module | This module is responsible to make sure that all the information that is being sent to or received by the database is persistent. |
+| Time Server Access | This module handles all the communication with the servers made by the client. |
+
+The deployment diagram in figure 2.3 shows how the individual components associated with the previous diagram are deployed. The responsibilities of the elements in the diagram are summarized as follows:
+
+| Element | Responsibility |
+| :------ | :------------- |
+| User's Workstation | The user’s devices, that can host the client side logic of the system. |
+| Application Server | The server that can host the server side logic of the web application. |
+| Database Server | The server that contains and hosts the relational database of the system |
+| Time Server | All External Time Servers |
+
+![Deployment Diagram](DeploymentDiagram.jpg)
+**FIGURE 2.3** Deployment Diagram for the CMS system <br>
+
+**2.2.6 Perform Analysis of Current Design and Review Iteration Goal and Achievement of Design Purpose** <br>
+
+| Not Addressed | Partially Addressed | Completely Addressed | Design Decisions Made During the Iteration |
+| :------------ | :------------------ | :------------------- | :----------------------------------------- |
+|               |UC-1                 |                      |User restriction is now possible with SQL database. Other user interface features not yet implemented.|
+|               |UC-4                 |                      |User restriction is now possible with SQL database. Other user interface features not yet implemented.|
+|               |UC-6                 |                      |User restriction is now possible with SQL database. Other user interface features not yet implemented.|
+|UC-13          |                     |                      |No structure has been implemented that allows for this feature yet.|
+|               |                     |UC-16                 |SQL database allows for system backups as needed.|
+|               |                     |UC-20                 |Authorized users will have access to the SQL table containing users and their access. This means authorized users can make changes to other users access.|
+|               |                     |UC-21                 |By using an sql database it allows for a table to store user ids and the restrictions they have. This allows us to meet this use case.|
+|               |                     |QA-1                  |Because we are using a web based application with four tiers and sql database large files will be no issue.If it need to be restricted due to load then it is easy to do so.|
+|               |                     |QA-2                  |Because we are using a web based application with four tiers and sql database multiple users can interact with the system at once and change files.|
+|               |                     |QA-3                  |Because we are using a web based application and sql database the only downtime would be for system maintenance and significant changes.|
+|               |                     |CON-2                 |Web based user interface checks off all items in this constraint|
+|               |CON-3                |                      |By using a web based application we have taken the first step in this process. We now have to add the correct packages to allow complete addressing of this constraint|
+|               |                     |CON-5                 |Web based application is universal the only thing is access to the secondary universities database. so easily can sync with other universities who support SQL databases|
